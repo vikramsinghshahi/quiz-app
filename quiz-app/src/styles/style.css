@@ -1,0 +1,163 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f8ff;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #3a3939;
+  color: aliceblue;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2rem;
+}
+
+.category_header,
+.level_header {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.category {
+  padding: 2rem 0;
+}
+
+.primary_btn_active,
+.primary_btn {
+  background-color: #2da44e;
+  padding: 0.5rem 1.2rem;
+  margin: 0.3rem;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: aliceblue;
+}
+
+.level_buttons {
+  text-align: center;
+}
+
+.primary_btn_active {
+  background-color: rgb(234, 84, 51);
+}
+
+.secondary_btn {
+  background-color: #383636;
+  color: aliceblue;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.center {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.quiz {
+  background-color: #dfdddb;
+  padding: 1.4rem 2rem;
+  margin-top: 3rem;
+  border-radius: 5px;
+}
+
+.quiz h2 {
+  text-align: center;
+  padding: 0.3rem 0;
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.quiz h3 {
+  padding: 0.6rem 0;
+  font-size: 1.4rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.option,
+.option_active {
+  background-color: #0ed694;
+  margin: 0.6rem 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  color: aliceblue;
+  border-radius: 6px;
+}
+
+.option_active {
+  background-color: #3535ee;
+}
+
+.btn_wrapper {
+  text-align: right;
+}
+
+.btn_next,
+.btn_submit {
+  padding: 0.5rem 1rem;
+  background-color: #3838e4;
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-top: 0.6rem;
+  font-size: 1.3rem;
+}
+
+.table th {
+  text-align: center;
+  background-color: #52514f;
+  color: aliceblue;
+  padding: 0.3rem;
+}
+
+.result {
+  background-color: #ebe6e1;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+tr {
+  margin: 0.5rem 0;
+}
+
+.table {
+  text-align: center;
+}
+
+.result_score {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.icon img {
+  width: 1.5rem;
+  display: inline-block;
+}
+
+.icon {
+  text-align: center;
+}
+
+.table_data {
+  text-align: center;
+  padding: 0.5rem 0;
+}
